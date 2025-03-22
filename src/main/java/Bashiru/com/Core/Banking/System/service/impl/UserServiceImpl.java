@@ -7,6 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 public class UserServiceImpl implements UserService {
 
     @Autowired
@@ -22,5 +24,11 @@ public class UserServiceImpl implements UserService {
             LOGGER.error("Failed to fetch user. Status = Fail, error {}", e.getMessage());
             throw new Exception("Error occurred " + e.getMessage());
         }
+    }
+
+    @Override
+    public List<User> findUsers() throws Exception {
+         return userRepository.findAllUsers();
+
     }
 }

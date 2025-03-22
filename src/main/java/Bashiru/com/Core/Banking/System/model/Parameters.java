@@ -1,9 +1,8 @@
 package Bashiru.com.Core.Banking.System.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Data;
 
-@Data
+
 public class Parameters {
     @JsonProperty("currency")
     private String currency;
@@ -17,7 +16,37 @@ public class Parameters {
     public Parameters() {
     }
 
+    public String getCurrency() {
+        return currency;
+    }
 
+    public void setCurrency(String currency) {
+        this.currency = currency;
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
+    }
+
+    public String getAmount() {
+        return amount;
+    }
+
+    public void setAmount(String amount) {
+        this.amount = amount;
+    }
+
+    public String getMsisdn() {
+        return msisdn;
+    }
+
+    public void setMsisdn(String msisdn) {
+        this.msisdn = msisdn;
+    }
 
     @Override
     public String toString() {

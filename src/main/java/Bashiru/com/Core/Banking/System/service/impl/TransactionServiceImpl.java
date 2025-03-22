@@ -13,6 +13,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.math.BigDecimal;
 import java.time.Instant;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.logging.Logger;
 
 public class TransactionServiceImpl implements TransactionService {
@@ -31,7 +35,8 @@ public class TransactionServiceImpl implements TransactionService {
         try {
             Account account = accountRepository.findCustomerAccount(payLoad.getParameters().getAccount());
             LOGGER.info("Account " + account);
-            if (account != null){
+            if (account != null)
+            {
 
                 BigDecimal initialBalance = account.getAccountBalance();
                 BigDecimal deposit = new BigDecimal(payLoad.getParameters().getAmount());
@@ -59,4 +64,28 @@ public class TransactionServiceImpl implements TransactionService {
             throw new Exception("Error occurred " + e.getMessage());
         }
     }
+
+    @Override
+    public List<Transaction> findById(Account accountId) throws Exception
+    {
+
+            return transactionRepository.findByAccountId(accountId.getId());
+
+    }
+
+    Map<Long, Transaction> transactionMap = new HashMap<>();
+
+
+    @Override
+    public void saveTransaction(Transaction transaction) {
+        transactionMap.put(transaction.getId(), transaction);
+    }
+
+    @Override
+    public Optional<Transaction> findTransactionById(Long transactionId) {
+        return Optional.ofNullable(transactionMap.get(transactionId));
+    }
+
+
+
 }

@@ -7,10 +7,10 @@ import java.io.Serializable;
 import java.time.Instant;
 
 @Entity
-@Table(name = "CUSTOMER")
+@Table(name = "CUSTOMER_ACC")
 public class Customer implements Serializable {
 
-    private static final long serialVersionUID = 1L;
+   // private static final long serialVersionUID = 1L;
     @Id
     @Basic(optional = false)
     @Column(name = "ID")

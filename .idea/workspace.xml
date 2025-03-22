@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d3eecb6-8210-4e9d-89c1-f87c68dc2667" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/CoreBankingSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/CoreBankingSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/config/DataSourceConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/controller/TransactionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/entity/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/entity/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/model/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/model/Parameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/repository/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/service/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/service/impl/TransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/service/impl/TransactionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bashiru/com/Core/Banking/System/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Bashiru/com/Core/Banking/System/config/DataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Bashiru/com/Core/Banking/System/controller/CustomerController.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2uLok7UiahJ1BqMJ8Pj3oc33LWe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CoreBankingSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d3eecb6-8210-4e9d-89c1-f87c68dc2667" name="Changes" comment="" />
+      <created>1742037359026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742037359026</updated>
+    </task>
+    <servers />
+  </component>
+</project>

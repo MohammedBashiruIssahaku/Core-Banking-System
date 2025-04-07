@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public interface UserService {
-    User findUserByUserNameAndPassword(String userName, String password) throws Exception;
+    User findUserByName(String userName) throws Exception;
 
     List<User> findUsers() throws Exception;
 }

@@ -17,9 +17,9 @@ public class UserServiceImpl implements UserService {
     private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Override
-    public User findUserByUserNameAndPassword(String userName, String password) throws Exception {
+    public User findUserByName(String userName) throws Exception {
         try {
-            return userRepository.findUserByUserNameAndPassword(userName, password);
+            return userRepository.findUserByName(userName);
         }catch (Exception e){
             LOGGER.error("Failed to fetch user. Status = Fail, error {}", e.getMessage());
             throw new Exception("Error occurred " + e.getMessage());

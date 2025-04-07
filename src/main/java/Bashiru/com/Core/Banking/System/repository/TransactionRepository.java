@@ -17,5 +17,8 @@ public interface TransactionRepository extends JpaRepository <Transaction, Long>
     @Query("SELECT t FROM Transaction t WHERE t.accountId = :accountId")
     List<Transaction> findByAccountId(@Param("accountId") long accountId);
 
+    @Query("SELECT * Transaction")
+    List<Transaction> findAllTransactions(@Param("id") String id);
+
 
 }
